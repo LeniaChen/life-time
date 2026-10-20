@@ -1,0 +1,11 @@
+# 备份数据是日记级的私人内容，不进版本库
+backups/*.txt
+backups/*.json
+!backups/README.md
+
+# 系统杂项
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
